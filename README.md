@@ -2,6 +2,20 @@
 
 This project is a simple webpage that showcases various sections including a header, training section, insights section, report section, and footer. It is structured to provide a clean and organized layout with interactive elements.
 
+## 🛠️ Technologies Used
+
+- HTML5  
+- CSS3  
+- Bootstrap 5  
+- Cloudinary (for embedded video)
+
+## 🚀 How to Run in VS Code
+
+1. **Download or Clone the Repository**
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+
+
 ## Project Structure
 
 ```
@@ -41,3 +55,5 @@ If you would like to contribute to this project, please fork the repository and 
 ## License
 
 This project is open-source and available under the MIT License.
+
+https://github.com/shashank-reddy-31/gogagaassignment1.git
