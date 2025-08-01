@@ -1,0 +1,126 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h3 {
+  color: #000;
+}
+
+.hero-img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.navbar-brand small {
+  font-size: 12px;
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card {
+  border: none;
+  transition: transform 0.3s ease-in-out;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.footer {
+  background: #f8f9fa;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.footer-text {
+  font-size: 14px;
+  color: #666;
+  margin-top: 20px;
+}
+
+.btn-black {
+  background-color: black;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 50px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.btn-black:hover {
+  background-color: #333;
+}
+.main1 {
+    font-size: 12px;
+    color: #6c757d;
+    font-weight: bold;
+    font-family: "roboto";
+}
+
+.brand-logos img {
+  max-height: 30px;
+  margin: 10px;
+  filter: grayscale(100%);
+  transition: filter 0.3s;
+}
+
+.brand-logos img:hover {
+  filter: grayscale(0);
+}
+
+.back {
+    background-image: url("https://res.cloudinary.com/dit5wff6e/image/upload/v1753982530/Image_1_qy6ln0.jpg");
+    background-size: cover
+}
+.back1{
+    background-image: url("https://res.cloudinary.com/dit5wff6e/image/upload/v1753982583/Image_2_j67gdk.jpg");
+    background-size: cover;
+}
+.back2 {
+    background-image: url("https://res.cloudinary.com/dit5wff6e/image/upload/v1753982629/Image_3_wqugdx.jpg");
+    background-size: cover;
+}
+.last {
+    font-family: arial;
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    flex-direction: column-reverse;
+  }
+
+  .hero-section h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .hero-section p {
+    text-align: center;
+  }
+
+  .btn {
+    display: block;
+    margin: 10px auto;
+    width: 80%;
+  }
+
+  .card-title, .card-text {
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-family: "robot";
+  }
+}
